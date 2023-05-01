@@ -9,6 +9,10 @@ Heading 1
 </tagname> <!-- End Tag -->
 ```
 
+## URL Basics
+> scheme://prefix.domain:port/path/filename
+
+
 ## Basic Document Layout Syntax
 ```html
 <!DOCTYPE html> <!-- defines the file as an HTML5 document -->
@@ -16,9 +20,6 @@ Heading 1
 <head> <!-- contains all the meta data of the html page -->
 <title> <!-- specifies the title of the webpage (shown in title bar or the page tab)-->
 <body> <!-- defines the documents body and containes all the visable elements of the website page -->
-
-<!-- Favicon -->
-<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
 <!-- Headngs -->
 <h1> <!-- Largest Heading -->
@@ -83,31 +84,6 @@ Attributes can be added to any CSS element in order to provide additional inform
 <p title="tool tip"> Paragraph Text </p> <!-- Displays a tool tip when the cursor hoevers over the element -->
 ```
 
-## Text Formatting Options
-```html
-<b> <!-- Bolds Text -->
-<strong> <!-- Importnat Text -->
-<i> <!-- Italic Text -->
-<em> <!-- Emphasized Text -->
-<mark> <!-- Marked Text (Highlighted)-->
-<small> <!-- Small Text -->
-<del> <!-- Deleted Text (Striked Through) -->
-<ins> <!-- Interted Text (Underlined)-->
-<sub> <!-- Subscript -->
-<sup> <!-- Superscript -->
-<bdo> <!-- Bi-Directional Overide, causes text to be written from right to left (mirrors text)>
-```
-
-## Quotation Elements
-Quation elements are used for sections of the website that are taken from another source and need to be referenced.
-```html
-<blockquote cite="websitesource.com"> <!-- indents a block of text that is quoted from anothe source -->
-<q> <!-- Short inline text quotes -->
-<abbr title="As Soon As Possible"> <!-- creates better accesiblity and helps search engines-->
-<address> <!-- defines the contact information of the owners of the website -->
-<cite> <!-- defines the title of something being cite, rendered in italics usually>
-```
-
 ## CSS Styling
 
 ### Inline CSS
@@ -159,15 +135,17 @@ A style sheet is defined externally in order to style the website. This is typic
 body {
     background-color: red;
 }
+
+/* Text Styling */
 p {
-    color: red;
-    font-size: 60px;
-    font-size: 130%;
-    font-family: courier;
-    text-align: center;
-    border: 2px solid powderblue;
-    padding: 30px; /* defines space between image and border */
-    margin: 60px; /* space outside of the border */
+  color: red;
+  font-size: 60px;
+  font-size: 130%;
+  font-family: courier;
+  text-align: center;
+  border: 2px solid powderblue;
+  padding: 30px; /* defines space between image and border */
+  margin: 60px; /* space outside of the border */
 }
 /* Font Colours can be set with RGB/RGBA, Hex, and HSL/HSLA
 Background colours can be specified with RBGA and HSLA, with the A specifying transparency */
