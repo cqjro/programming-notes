@@ -23,7 +23,7 @@
 
 ## Document Structure
 <center>
-    <img src=Latex/images/sections.png?raw=true width=700>
+    <img src=Latex/images/sections.png width=700>
     <img src=/images/tableofcontents.png width=700>
     <img src=/images/references.png width=700>
     <img src=/images/hyperlinks.png width=700>
