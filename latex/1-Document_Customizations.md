@@ -23,7 +23,7 @@
 
 ## Document Structure
 <center>
-    <img src=https://github.com/cqjro/programming-notes/blob/main/sections.png?raw=true width=700>
+    <img src=programming-notes/latex/images/sections.png width=700>
     <img src=/images/tableofcontents.png width=700>
     <img src=/images/references.png width=700>
     <img src=/images/hyperlinks.png width=700>
