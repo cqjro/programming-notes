@@ -1,0 +1,56 @@
+\documentclass[a4paper]{article}
+
+%%% Package Imports
+\usepackage{amsmath, amssymb, amsfonts, amsthm, mathrsfs, esvect, cancel}
+\usepackage{chemformula}
+\usepackage[version=4]{mhchem}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{textcomp, gensymb}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usepackage{contour, ulem}
+
+%%% Page Margins
+\usepackage[top = 2cm, 
+            bottom = 2cm,
+            left = 0.5cm,
+            right = 0.5cm]{geometry}
+
+%%% Header & Footer
+\usepackage{fancyhdr}
+    \pagestyle{fancy}
+\usepackage{lastpage}
+
+%%% Header
+\fancyhead[L]{CHENNN: Course Name}
+\fancyhead[R]{\today}
+\fancyhead[C]{Lesson Title}
+
+%%% Footer
+\fancyfoot[R]{Page \thepage}
+\fancyfoot[L]{Cairo Cristante}
+\fancyfoot[C]{}
+
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+
+%%% New Commands
+\newcommand{\topictitle}[1]{\noindent \textbf{\uline{#1}}} % New Topic Titles
+\newcommand{\subtopic}[1]{\noindent \uline{#1}}
+\newcommand{\sub}[1]{_{\text{#1}}} % faster text subscripts
+\newcommand{\supp}[1]{^{\text{#1}}} % faster text superscripts
+\newcommand{\chemsub}[1]{_{\ce{#1}}} % chemical formula subscripts
+\newcommand{\al}[2]{\text{#1} & \hspace{1cm} #2 &} % faster lines in display equations
+\newcommand{\var}[3]{#1= & \hspace{1cm} \text{#2} \hspace{-4cm} & \text{#3} &} % easy display of variable definitions in align format
+\newcommand{\note}{\noindent \textbf{Note: }} % making notes/warnings
+\newcommand{\laplace}{\mathscr{L}} % laplace operator
+\newcommand{\der}{\text{d}} % text derivative sign
+\newcommand{\derivative}[2]{\frac{\der #1}{\der #2}}
+\newcommand{\perivative}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\bvert}{\bigg\vert}
+\newcommand{\image}[2]{\begin{center} \includegraphics[width= #2 cm]{#1} \end{center}}
+
+\begin{document}
+Start Doc here
+\end{document}
